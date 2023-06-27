@@ -47,7 +47,7 @@ public class Main {
             }
 
         }
-        System.out.printf("\n%d%% están debajo del peso ideal, %d%% se encuentran en su peso ideal y %d%% están sobre el peso ideal.",debajo*100/totalPer,ideal*100/totalPer,sobre*100/totalPer);
+        System.out.format("\n%d%% están debajo del peso ideal, %d%% se encuentran en su peso ideal y %d%% están sobre el peso ideal.",debajo*100/totalPer,ideal*100/totalPer,sobre*100/totalPer);
         System.out.format("\nEl %d%% son mayores de edad y el %d%% son menores de edad.",personasMayores*100/totalPer,personasMenores*100/totalPer);
 
 

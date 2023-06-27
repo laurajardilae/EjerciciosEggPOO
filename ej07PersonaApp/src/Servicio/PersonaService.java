@@ -12,11 +12,15 @@ public class PersonaService {
         System.out.println("Ingrese su edad");
         int edad= entrada.nextInt();
         String sexo;
+        boolean sexoCorecto;
         do {
-             System.out.println("Ingrese su sexo (M/H/O)");
-             sexo = entrada.next().toUpperCase();
-
-        }while (!sexo.equals("M")&&!sexo.equals("H")&&!sexo.equals("O"));
+            System.out.println("Ingrese su sexo (M/H/O)");
+            sexo = entrada.next().toUpperCase();
+            sexoCorecto=sexo.equals("M")||sexo.equals("H")||sexo.equals("O");
+            if(!sexoCorecto){
+                System.out.println("Ingrese el sexo nuevamente");
+            }
+        }while (!sexoCorecto);
         System.out.println("Ingrese su altura");
         double altura= entrada.nextDouble();
         System.out.println("Ingrese su peso");
