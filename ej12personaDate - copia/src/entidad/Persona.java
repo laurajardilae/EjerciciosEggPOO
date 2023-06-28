@@ -1,16 +1,17 @@
 package entidad;
 
-import java.util.Date;
+import java.time.LocalDate;
+
 
 public class Persona {
     private String nombre;
-    private Date fechaNacimiento;
+    private LocalDate fechaNacimiento;
    private int edad;
 
     public Persona() {
     }
 
-    public Persona(String nombre, Date fechaNacimiento) {
+    public Persona(String nombre, LocalDate fechaNacimiento) {
         this.nombre = nombre;
         this.fechaNacimiento = fechaNacimiento;
     }
@@ -24,11 +25,11 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public Date getFechaNacimiento() {
+    public LocalDate getFechaNacimiento() {
         return fechaNacimiento;
     }
 
-    public void setFechaNacimiento(Date fechaNacimiento) {
+    public void setFechaNacimiento(LocalDate fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
 

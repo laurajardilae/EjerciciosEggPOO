@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fca2f0c-773d-4571-9915-e98834d43bb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ej11date.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej12personaDate/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ej12personaDate/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej12personaDate/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ej12personaDate/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej12personaDate/src/Service/PersonaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ej12personaDate/src/Service/PersonaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej12personaDate/src/entidad/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ej12personaDate/src/entidad/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2RlKlNN1sgST64D8tbcgg1WNggO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,6 +30,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ardil/OneDrive/Documentos/Curso QC automat/Java/POO/ej12personaDate",
     "onboarding.tips.debug.path": "C:/Users/ardil/OneDrive/Documentos/Curso QC automat/Java/POO/ej11date/src/Main.java"
   }
 }]]></component>
