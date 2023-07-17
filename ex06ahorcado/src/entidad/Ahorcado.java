@@ -4,7 +4,6 @@
 */
 package entidad;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.Vector;
@@ -23,7 +22,8 @@ public class Ahorcado {
         vectorUsuario = crearVectorUsuario();
         System.out.printf("La palabra contiene %d letras y te puedes equivocar %d veces\n",vectorSecreto.size(),intentos);
     }
-    public void jugar(){
+    public void juego(){
+        crearJuego();
         do{
             System.out.println("Ingresa una letra");
             buscar(entrada.next());
